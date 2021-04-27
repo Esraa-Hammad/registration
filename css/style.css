@@ -1,0 +1,55 @@
+body{
+    background-color: #24353F;
+}
+ .Re-form,.login-form{
+    box-shadow: -5px 2px 54px -9px rgb(0 0 0);
+    padding: 50px;
+    margin: auto;
+    margin-top: 5%;
+}
+.navbar{
+    box-shadow: -5px 2px 54px -9px rgb(0 0 0);
+}
+
+.form-control{
+    background-color: #24353F !important;
+    color: #fff !important;
+}
+h2,h1{
+    color: #17A2B8;
+}
+::placeholder{
+    color: #B1B1B6 !important;
+}
+.ico-n{
+    position: relative;
+}
+#icon-open,#icon-close,#login-open,#login-close{
+    position: absolute;
+    cursor: pointer;
+    right: 12px;
+    top: 10px;
+    color: #fff;
+}
+.cam{
+    position: relative;
+}
+#i-con{
+    position: absolute;
+    top: 70px;
+    left: 360;
+    color: #fff;
+    cursor: pointer;
+}
+
+input[type="file"] {
+    display: none;
+}
+.custom-file-upload {
+    border: 3px solid #ccc;
+    display: inline-block;
+    border-radius: 50%;
+    cursor: pointer;
+    height: 100px;
+    width: 100px;
+}
